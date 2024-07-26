@@ -1,0 +1,51 @@
+.letter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha a carta e o carrossel ao centro */
+  width: 100%;
+}
+
+.letter {
+  position: relative;
+  width: 90%; /* Ajuste conforme necessário */
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fef6e4; /* Cor de papel bege */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.letter-top {
+  /* Estilo para a parte de cima da carta (se necessário) */
+}
+
+.letter-content {
+  /* Estilo para o conteúdo da carta */
+  font-family: "Playwrite DK Loopet", cursive;
+}
+
+.letter-content h1 {
+  text-align: left; /* Alinha o h1 à esquerda */
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: "Playwrite AT", cursive;
+}
+
+.letter-content p {
+  text-align: center;
+  color: #555;
+  font-size: 1.2em;
+}
+
+.letter-content .poem {
+  font-size: 1em; /* Tamanho menor para o poema */
+  text-align: left;
+  line-height: 1.5; /* Melhor espaçamento entre linhas */
+  white-space: pre-line; /* Preserva os espaços e quebras de linha */
+}
+
+.bold {
+  font-weight: bold;
+}
